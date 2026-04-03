@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Luke Prebola | Data Analyst</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { background: #d2d2d6; }
+    .navbar { background: #1a2e6d; border-bottom: 2px solid #FB4F14; }
+    .navbar-brand { color: #FB4F14 !important; font-weight: bold; }
+    .nav-link { color: #fff !important; }
+    .nav-link:hover { color: #FB4F14 !important; }
+    .hero { background: #1a2e6d; color: #fff; padding: 100px 20px; text-align: center; }
+    .hero h1 { font-size: 3em; }
+    .hero h2 { color: #FB4F14; font-size: 1.4em; margin-top: 10px; }
+    .hero p { color: #ccc; max-width: 600px; margin: 20px auto; line-height: 1.7; }
+    .btn-orange { background: #FB4F14; color: #fff; border: none; padding: 12px 30px; border-radius: 5px; font-weight: bold; text-decoration: none; }
+    .btn-orange:hover { background: #d94410; color: #fff; }
+    .skill-badge { background: #333e4e; color: #fff; border: 1px solid #FB4F14; padding: 8px 18px; border-radius: 20px; font-size: 0.9em; display: inline-block; margin: 5px; }
+    .project-card { background: #333e4e; border-radius: 10px; padding: 25px; border-left: 4px solid #FB4F14; }
+    .project-card h5 { color: #fff; }
+    .project-card p { color: #aaa; line-height: 1.6; }
+    .project-tag { background: #FB4F14; color: #fff; padding: 3px 10px; border-radius: 10px; font-size: 0.8em; display: inline-block; margin: 3px; }
+    .project-card a { color: #FB4F14; font-weight: bold; text-decoration: none; }
+    .project-card a:hover { color: #d94410; }
+    .about-section { background: #333e4e; padding: 60px 20px; }
+    .about-section h3 { color: #FB4F14; }
+    .about-section p { color: #ccc; line-height: 1.8; }
+    .section-title { color: #1a2e6d; font-weight: bold; }
+    footer { background: #1a2e6d; color: #ccc; text-align: center; padding: 20px; border-top: 2px solid #FB4F14; }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="#">Luke Prebola</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="dashboard.html">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="Resume.pdf" target="_blank">Resume</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="hero">
+  <h1>Luke Prebola</h1>
+  <h2>Data Analyst | Villanova University</h2>
+  <p>Sophomore passionate about turning raw data into actionable insights. Experienced in Python, SQL, Google Sheets, and JavaScript.</p>
+  <a href="dashboard.html" class="btn-orange">View My Project</a>
+  <a href="Resume.pdf" target="_blank" class="btn-orange ms-3">View Resume</a>
+</div>
+
+<div class="container my-5">
+  <h3 class="section-title text-center mb-4">Skills</h3>
+  <div class="text-center mb-5">
+    <span class="skill-badge">Python</span>
+    <span class="skill-badge">Oracle SQL</span>
+    <span class="skill-badge">Google Sheets</span>
+    <span class="skill-badge">Pivot Tables</span>
+    <span class="skill-badge">JavaScript</span>
+    <span class="skill-badge">HTML / CSS</span>
+    <span class="skill-badge">Bootstrap</span>
+    <span class="skill-badge">Data Visualization</span>
+    <span class="skill-badge">ETL Pipelines</span>
+  </div>
+
+  <h3 class="section-title text-center mb-4">Projects</h3>
+  <div class="project-card mb-4">
+    <h5>Denver Broncos 2024 vs 2025 Analytics Dashboard</h5>
+    <p class="mt-2">Built a full end-to-end data pipeline pulling NFL data via Python API, storing and querying it in Oracle SQL, performing year-over-year analysis in Google Sheets with pivot tables and formulas, and visualizing insights in a custom interactive dashboard.</p>
+    <div class="mb-3">
+      <span class="project-tag">Python</span>
+      <span class="project-tag">Oracle SQL</span>
+      <span class="project-tag">Google Sheets</span>
+      <span class="project-tag">JavaScript</span>
+      <span class="project-tag">Chart.js</span>
+      <span class="project-tag">Bootstrap</span>
+    </div>
+    <a href="dashboard.html">View Dashboard →</a>
+  </div>
+</div>
+
+<div class="about-section">
+  <div class="container">
+    <h3 class="mb-3">About Me</h3>
+    <p>I am a sophomore at Villanova University studying data analytics. I am passionate about sports analytics, digital data, and building tools that turn complex datasets into clear insights. I am currently seeking a summer 2026 internship in digital analytics or data analysis.</p>
+  </div>
+</div>
+
+<footer>
+  <p>Luke Prebola | Villanova University | lprebola@villanova.edu</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
